@@ -4,6 +4,7 @@
 # https://www.gnu.org/software/bash/manual/bash.html#index-getopts
 OPTSPEC="dhv"
 
+# Add defaults for any new options
 DEFAULT=(
     ['VERBOSE']='',
     ['DEBUG']=''
@@ -56,6 +57,7 @@ function parse_args() {
 	esac
     done
 
+    # Any options that are not yet set get defaulted
     : DEBUG=${DEBUG:=${DEFAULT[DEBUG]}}
     : VERBOSE=${VERBOSE:=${DEFAULT[VERBOSE]}}
 }
