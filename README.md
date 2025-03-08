@@ -1,2 +1,2 @@
-# boileplate
+# boilerplate
 Templates for Scripts 
