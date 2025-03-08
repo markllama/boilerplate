@@ -4,10 +4,6 @@
 # https://www.gnu.org/software/bash/manual/bash.html#index-getopts
 OPTSPEC="dhv"
 
-# Define default values for arguments
-DEFAULT_DEBUG=""    # Empty switch strings are False
-DEFAULT_VERBOSE=""
-
 DEFAULT=(
     ['VERBOSE']='',
     ['DEBUG']=''
