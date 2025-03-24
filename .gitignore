@@ -1,0 +1,5 @@
+# Ignore Python local directories
+__pycache__
+
+# Ignore Emacs backup files
+*~
